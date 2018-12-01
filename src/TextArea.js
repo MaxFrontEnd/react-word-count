@@ -28,7 +28,7 @@ class TextArea extends React.Component {
           value={this.state.name}
           onChange={this.insertText}
         />
-        <Text value={"Вы ввели " + this.state.count + " символов/символа"} />
+        <Text value={Number(this.state.count)} />
       </div>
     );
   }

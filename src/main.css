@@ -7,7 +7,7 @@ html,
   width: 100%;
   display: flex;
   align-items: center;
-  background-color: rgba(151, 156, 153, 0.836);
+  background-color: rgba(57, 58, 57, 0.836);
 }
 
 /* #main {
@@ -30,6 +30,22 @@ html,
   -moz-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+#timer {
+  height: 10%;
+  width: 40%;
+  background-color: steelblue;
+  position: fixed;
+  border-radius: 20px;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
 .area {
   height: 50%;
